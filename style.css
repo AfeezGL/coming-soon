@@ -3,17 +3,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'montserrat';
+    color: #FEF9EF;
 }
 body{
-    background-image: linear-gradient(to right top, #00fd2c, #9dd500, #d3a700, #f36e00, #ff0000);
+    background: url("img.jpg") no-repeat center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 header{
     display: flex;
-    color: white;
     padding-top: 1rem;
 }
 small{
@@ -28,5 +30,4 @@ small{
     font-size: 2.5rem;
     text-transform: capitalize;
     margin-top: 10rem;
-    color: gray;
 }
