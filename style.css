@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+body{
+    background-image: linear-gradient(to right top, #00fd2c, #9dd500, #d3a700, #f36e00, #ff0000);
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    color: white;
+    padding-top: 1rem;
+}
+small{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.coming-soon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 10rem;
+    color: gray;
+}
